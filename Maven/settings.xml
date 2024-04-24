@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
+		  
+  <!-- 本地仓库 -->
+  <localRepository>D:/Development/Maven/localRepository</localRepository>
+
+  <pluginGroups>
+  </pluginGroups>
+
+  <proxies>
+  </proxies>
+
+  <servers>
+  </servers>
+
+  <!-- 镜像 -->
+  <mirrors>
+  
+    <mirror>
+      <id>apache-snapshots</id>
+      <mirrorOf>apache-snapshots</mirrorOf>
+      <name>apache-snapshots</name>
+      <url>https://maven.aliyun.com/repository/apache-snapshots</url>
+    </mirror>
+	
+	<mirror>
+      <id>central</id>
+      <mirrorOf>central</mirrorOf>
+      <name>central</name>
+      <url>https://maven.aliyun.com/repository/central</url>
+    </mirror>
+	
+	<mirror>
+      <id>google</id>
+      <mirrorOf>google</mirrorOf>
+      <name>google</name>
+      <url>https://maven.aliyun.com/repository/google</url>
+    </mirror>
+	
+	<mirror>
+      <id>gradle-plugin</id>
+      <mirrorOf>gradle-plugin</mirrorOf>
+      <name>gradle-plugin</name>
+      <url>https://maven.aliyun.com/repository/gradle-plugin</url>
+    </mirror>
+	
+	<mirror>
+      <id>jcenter</id>
+      <mirrorOf>jcenter</mirrorOf>
+      <name>jcenter</name>
+      <url>https://maven.aliyun.com/repository/jcenter</url>
+    </mirror>
+	
+	<mirror>
+      <id>spring</id>
+      <mirrorOf>spring</mirrorOf>
+      <name>spring</name>
+      <url>https://maven.aliyun.com/repository/spring</url>
+    </mirror>
+	
+	<mirror>
+      <id>spring-plugin</id>
+      <mirrorOf>spring-plugin</mirrorOf>
+      <name>spring-plugin</name>
+      <url>https://maven.aliyun.com/repository/spring-plugin</url>
+    </mirror>
+	
+	<mirror>
+      <id>public</id>
+      <mirrorOf>public</mirrorOf>
+      <name>public</name>
+      <url>https://maven.aliyun.com/repository/public</url>
+    </mirror>
+	
+	<mirror>
+      <id>releases</id>
+      <mirrorOf>releases</mirrorOf>
+      <name>releases</name>
+      <url>https://maven.aliyun.com/repository/releases</url>
+    </mirror>
+	
+	<mirror>
+      <id>snapshots</id>
+      <mirrorOf>snapshots</mirrorOf>
+      <name>snapshots</name>
+      <url>https://maven.aliyun.com/repository/snapshots</url>
+    </mirror>
+	
+	<mirror>
+      <id>grails-core</id>
+      <mirrorOf>grails-core</mirrorOf>
+      <name>grails-core</name>
+      <url>https://maven.aliyun.com/repository/grails-core</url>
+    </mirror>
+	
+	<mirror>
+      <id>mapr-public</id>
+      <mirrorOf>mapr-public</mirrorOf>
+      <name>mapr-public</name>
+      <url>https://maven.aliyun.com/repository/mapr-public</url>
+    </mirror>
+	
+	<mirror>
+      <id>staging-alpha</id>
+      <mirrorOf>staging-alpha</mirrorOf>
+      <name>staging-alpha</name>
+      <url>https://maven.aliyun.com/repository/staging-alpha</url>
+    </mirror>
+	
+	<mirror>
+      <id>staging-alpha-group</id>
+      <mirrorOf>staging-alpha-group</mirrorOf>
+      <name>staging-alpha-group</name>
+      <url>https://maven.aliyun.com/repository/staging-alpha-group</url>
+    </mirror>
+	
+  </mirrors>
+
+  <!-- JDK版本 -->
+  <profiles>
+	<profile>
+		<id>1.8</id>
+		<activation>
+			<jdk>1.8</jdk>
+			<activeByDefault>true</activeByDefault>
+		</activation>
+		<properties>
+			<maven.compiler.source>1.8</maven.compiler.source>
+			<maven.compiler.target>1.8</maven.compiler.target>
+			<maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+		</properties>
+	</profile>
+  </profiles>
+
+</settings>
