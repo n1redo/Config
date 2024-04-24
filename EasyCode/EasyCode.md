@@ -5,10 +5,10 @@
 $!{define.vm}
 
 ##保存文件（宏定义）
-#save("/po", ".java")
+#save("/entity", ".java")
 
 ##包路径（宏定义）
-#setPackageSuffix("po")
+#setPackageSuffix("entity")
 
 ##自动导入包（全局变量）
 $!{autoImport.vm}
